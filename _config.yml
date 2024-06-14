@@ -20,13 +20,14 @@
 
 title: Konrad Phillips-Lenz
 author: Konrad Phillips-Lenz
-email: your-email@example.com
+email: kphillipslenz@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "konrad-pl.github.io/"
 
 # SEO PLUGIN
 social:
@@ -35,16 +36,26 @@ social:
     - https://x.com/
 twitter_username: 
 github_username: konrad-pl 
+instagram_username: scythium
+
+disqus:
+  shortname: konrad-pl
+
+
+  service_work: true
 
 
 # THEME SETTINGS
 navigation : # Navigation links
   - {name: 'Home', link: '/'}
-  - {name: 'Projects', link: 'about'}
+  - {name: 'Projects', link: '/about'}
   - {name: 'Contact', link: '/contact'}
 
+
+hero_img: posts/sleek_lg.jpg
+
 tagline: >
-  A place to host my projects and future projects
+  A place to host my current and future projects
 
 
  # Build settings
@@ -64,8 +75,14 @@ exclude:
   - gulpfile.js
   - sleek.jpg
 
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
 plugins:
-  - jekyll-feed
+  #  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
