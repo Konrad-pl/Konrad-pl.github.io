@@ -32,7 +32,7 @@ end
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-#gem "jekyll-sleek", "~> 0.1.9"
+gem "jekyll-sleek", "~> 0.1.9"
 #gem "jekyll-sleek"
 gem "jekyll-seo-tag", "~> 2.3"
 gem "jekyll-sitemap", "~> 1.1"
