@@ -36,7 +36,6 @@ social:
     - https://x.com/
 twitter_username: 
 github_username: konrad-pl 
-instagram_username: scythium
 
 disqus:
   shortname: konrad-pl
@@ -85,6 +84,7 @@ plugins:
   #  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
